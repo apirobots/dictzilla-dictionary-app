@@ -1,6 +1,8 @@
 import { Language, Translation } from './types';
 
-const API_BASE_URL = 'https://dictzilla-api.apirobots.pro/v2';
+// const API_BASE_URL = 'https://dictzilla-api.apirobots.pro/v2';
+const API_BASE_URL = 'http://localhost:3001/api';
+
 
 export async function fetchLanguages(): Promise<Language[]> {
   const response = await fetch(`${API_BASE_URL}/languages`);
