@@ -10,7 +10,6 @@ const options = {
 	}
 };
 
-
 export async function fetchLanguages(): Promise<Language[]> {
   const response = await fetch(`${API_BASE_URL}/languages`, options);
   if (!response.ok) {
