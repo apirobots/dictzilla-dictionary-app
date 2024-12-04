@@ -1,12 +1,14 @@
 import { Language, Translation } from './types';
 
 const API_BASE_URL = 'https://[rapidapi-host]/v2';
+const RAPIDAPI_KEY = import.meta.env.VITE_RAPIDAPI_KEY;
+const RAPIDAPI_HOST = import.meta.env.VITE_RAPIDAPI_HOST;
 
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '[rapidapi-key]',
-		'X-RapidAPI-Host': '[rapidapi-host]'
+		'X-RapidAPI-Key': RAPIDAPI_KEY,
+		'X-RapidAPI-Host': RAPIDAPI_HOST
 	}
 };
 
