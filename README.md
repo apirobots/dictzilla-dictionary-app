@@ -48,6 +48,10 @@ yarn dev
 
 You can now use the API in your application to fetch languages and translations. Refer to the API documentation for more details on available endpoints and usage examples.
 
+## Screenshots
+
+![Preview Screenshot](assets/screenshot.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
