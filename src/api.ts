@@ -1,6 +1,6 @@
 import { Language, Translation } from './types';
 
-const API_BASE_URL = 'https://[rapidapi-host]/v2';
+const API_BASE_URL = 'https://dictzilla-dictionary-api-v2-by-apirobots.p.rapidapi.com/v2';
 const RAPIDAPI_KEY = import.meta.env.VITE_RAPIDAPI_KEY;
 const RAPIDAPI_HOST = import.meta.env.VITE_RAPIDAPI_HOST;
 
